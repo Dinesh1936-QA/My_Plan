@@ -26,7 +26,7 @@ class Bikes extends Vehicles {
 }
 
     
-class SingleInheritance
+class Single
 {
     public static void main (String[] args) {
         Bikes single = new Bikes() ;
