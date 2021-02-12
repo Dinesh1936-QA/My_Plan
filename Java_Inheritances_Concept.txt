@@ -1,0 +1,54 @@
+Java Inheritance Concepts:-
+
+Here we used to call some function or methods from another classes 
+The Main objective is Code reusability
+
+1. Super Class [Parent Class]
+2. Sub Class [Child Class]
+
+syntax:
+------------------------------------------------
+class Subclass-name extends Superclass-name  
+{  
+   //methods and fields  
+}  
+------------------------------------------------
+
+Using the "Extands" Keyword we can call once class from another class
+
+Here mainly we focused on 3 types 
+
+1. Single Inheritances      Class A <----- Class B
+
+>>>>One Class inherits from another class
+
+2. MultiLevel Inheritances          Class A <----- Class B <------ Class C
+
+>>>>There is an chain of inheritance
+
+3. Hierarchical Inheritances  
+    |-->  Class A  <--|
+    |                 |
+ Class B           Class C    
+ 
+ >>>>Two or more classes inherits from the Single class 
+
+And also we have two types 
+
+4. Multiple Inheritances -->>>> When one class inherits multiple classes, it is known as multiple inheritance. 
+
+ Class A           Class B  
+    ^               ^
+    |--- Class C ---|
+    
+5. Hybrid Inheritances
+
+   |-->  Class A  <--|
+   |                 |
+ Class B           Class C  
+   ^                 ^
+   |---- Class D ----|
+
+Note : >>>>> But the Actuall Problem is : Multiple inheritance is not supported in Java through class.
+
+The Reason is : >>>>> To reduce the complexity and simplify the language, multiple inheritance is not supported in java.
